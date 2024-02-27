@@ -36,7 +36,7 @@ server {
     listen 80;
     server_name DEINE EC2 IP;
 
-    location / {
+location / {
         root /home/ec2-user/loadbalancer;
         index index.html;
     }
